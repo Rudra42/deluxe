@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{float: left}
+.right{float: right}
+
+@font-face{
+    font-family:"ARDECODE";
+    src:url(../fonts/ARDECODE.ttf);
+}
+
+header{background-color: #2a2e33; min-height: 100px;overflow: hidden;}
+
+footer{
+    background-color: #333333;
+    min-height: 358px;
+    overflow: hidden;
+}
+
+
+#banner {
+    background-color: #00ccff;
+    min-height: 460px;
+    position: relative;
+}
+
+#select_room_type {
+     width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 2%;
+    margin-left: 15px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none; 
+    background: url(../images/down_sign.png) no-repeat;
+    background-position: 5%;
+     background-color: white;
+    padding-left: 11%;
+    
+}
+
+
+
+#package_booking {
+    background: url(../images/bb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 498px;
+    border: 2px solid #949698;
+    background-size: cover;
+}
+
+#room_types {
+    min-height: 850px;
+   background: url(../images/main.jpg);
+    overflow: hidden;
+    background-size: cover;
+   
+
+}
+
+#testimonial {
+    background-color: #e7cb2c;
+    min-height: 185px;
+    position: relative;
+}
+
+.logo {
+    height: 26px;
+    width: 362px;
+    margin-left: 155px;
+    padding-top: 42px;
+}
+.subtitle{
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #636669;
+}
+.menubar {
+    width: 685px;
+    margin-right: 135px;
+}
+
+.menubar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menubar ul li{
+    float: left;
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+    font-family: Droid Sans;
+    
+    font-size: 13px;
+    padding: 42px 22px;
+    
+}
+
+.menubar ul li a:hover{
+    background-color: #1e2329;
+    padding: 42px 22px;
+    border-top: 4px solid #ffd700;
+}
+
+.banner_caption {
+    height: 254px;
+    width: 578px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.welcome_text {
+    font-family: Quicksand;
+    font-weight: normal;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 22px;
+}
+
+.caption_title {
+    font-family: Droid Sans;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.fascilities {
+     font-family: Quicksand;
+    font-weight: normal;
+    color: white;
+    font-size: 30px;
+}
+
+.view_pricing {
+    background-color: #2a2e33;
+    width: 1022px;
+    height:  102px; 
+    position: absolute;
+    left: 12%;
+    bottom: -11%;
+}
+
+.form_group {
+    float: left;
+    padding-top: 10px;
+}
+.form_group label{
+    font-family: Quicksand;
+    font-weight: normal;
+    color: #9c8818;
+    font-size: 18px;
+    padding-left: 27px;
+}
+
+.common_date_style {
+     width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: url(../images/calender-icon.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 5%;
+    padding-left: 2%;
+    margin-left: 15px;
+}
+
+.view_price_btn {
+    width: 180px;
+    height: 45px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 10px;
+    font-family: DroidSans;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 23px;
+}
+
+.package_booking_title {
+    height: 105px;
+    width: 1168px;
+    text-align: center;
+    margin: 100px auto;
+}
+.package_booking_title h1{
+    font-family:ARDECODE;
+    font-size: 60px;
+    color: #2a2e33;
+    margin-top: 50px;
+}
+.package_booking_title p{
+    font-family:QuickSand;
+    font-size: 14px;
+    color: #2a2e33;
+}
+.package_slider {
+    width: 1035px;
+    height: 230px;
+    margin: -64px auto;
+    margin-bottom: 30px;
+}
+
+.left_indicator {
+    margin-top: 7%;
+}
+
+.single-item {
+    float: left;
+    width: 225px;
+    height: 215px;
+    border: 3px solid #2a2e33;
+    border-radius: 200px;
+    margin-left: 5.3%;
+}
+
+.right_indicator {
+    margin-top: 7%;
+}
+
+.room_types_title {
+  
+}
+
+.room_types_title h1{
+     height: 75px;
+    width: 345px;
+    font-family:ARDECODE;
+    font-size: 60px;
+    color: #2a2e33;
+    margin: 0;
+    margin: 0 auto;
+    text-align: center;
+     padding-top: 40px;
+}
+
+.all_room_types {
+    width: 1190px;
+    height: 580px;
+    margin: 0 auto;
+   
+}
+
+.single_types {
+    width: 332px;
+    height: 268px;
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 45px;
+}
+
+.room_images {
+}
+
+.room_datas {
+    
+}
+.room_datas h1{
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+}
+.room_datas p {
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+}
+
+.short_intro {
+}
+
+.room_fascilities {
+        margin-top: 18px;
+}
+
+.testimonial_data {
+    width: 875px;
+    height: 95px;
+    float: left;
+    padding-top: 45px;
+    font-family: Quicksand;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.testimonial_data h1{
+    font-weight: 400;
+    color: white;
+    font-size: 48px;
+        margin: 0px;
+}
+.comments {
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+}
+
+.author {
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+}
+
+.person_image {
+    position: absolute;
+    right: 7%;
+    bottom: -13px;
+}
+
+.footer_wrapper{height: 188px;width: 1170px;margin: 0px auto;padding-top: 25px;}
+.about_hotel {
+    width: 230px;
+    height: 200px;
+}
+
+.about_hotel h1,.latest_news h1,.join_deluxe h1,.members_area h1{
+    font-family: Droid Sand;
+    font-size: 18px;
+    color: #f1f1f1;    margin-bottom: 12px;
+}
+
+.footer_description {
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.latest_news {
+    width: 225px;
+    height: 200px;
+}
+
+.single_news {
+     font-family: Quicksand;
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.date {
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #e7cb2c;
+}
+
+.join_deluxe {
+    width: 500px;
+    height: 200px;
+}
+
+.read_more {
+    width: 155px;
+    height: 38px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e7cb2c;
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.members_area {
+    width: 210px;
+    height: 200px;
+}
+
+.member_form_group {
+}
+.member_form_group label{
+    font-family: 
+    font-size: 12px;
+    color: #f1f1f1;
+    font-weight: normal;
+       
+}
+
+.Username {
+    background-color: transparent;
+    border: 2px solid #2c2c2c;
+    border-radius: 10px;
+    width: 202px;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Password {
+    background-color: transparent;
+    border: 2px solid #2c2c2c;
+    border-radius: 10px;
+    width: 202px;
+    height: 32px;
+    margin-top: 8px;
+}
+.footer_bottom{
+    height: 35px;
+    background-color: #1f1f1f;
+}
